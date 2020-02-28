@@ -18,6 +18,12 @@ git commit -m "add readme.txt"
 
 // 提交修改到分支
 git push mybranch
+
+// 查看分支
+git branch -a
+
+// 切换分支
+git checkout mybranch
 ```
 
 # 版本查看

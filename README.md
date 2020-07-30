@@ -22,6 +22,9 @@ git push mybranch
 // 查看分支
 git branch -a
 
+// 获取远程更新，例如远程新增了分支，本地看不到，需要执行以下命令才可以看到
+git fetch
+
 // 切换分支，更新主分支内容到分支
 git checkout mybranch
 git merge master
